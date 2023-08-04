@@ -99,5 +99,5 @@ git remote add origin git@github.com:IanRestrepo/Guia-Markdown.git
 Ya tienes conectado todo y puedes seguir usando los comandos normalmente, ahora bien si quieres ver reflejados tus commits en tu repositorio remoto osea el de github solo tendras que escribir:
 
 ```bash
-git push -u 
+git push -u  
 ```
