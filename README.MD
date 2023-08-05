@@ -11,3 +11,5 @@ I'm **Currently** Working on:
 if You wanna contact me i'll show you the way 🛣: 
 - [x]   Email: contactoianrpo@gmail.com
 - [x]   Web: www.ianrestrepo.dev
+
+**OJO** Para ver el Ejercicio o Tarea 1 haga click [Aqui](/semana-1/html/index.html)
