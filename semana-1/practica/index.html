@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/semana-1/practica/main.css">
+    <title>Seteador de Semestre ||</title>
+</head>
+    <body>
+        <h1> <span class="hash">#</span> Buenos días <span id="name">Ian</span></h1>
+
+        <p>Bienvenido a tu paginación principal de la universidad, desde aqui podrás tener acceso a todo lo que necesitas para la misma, cada clase escribiras por medio de un archivo de <strong class="importantTag">Markdown</strong> lo entenido y afectivo de cada clase para asi poder tomar un orden significativo al trabajo que realices en la universidad y poder tomar el habito atomico de la disciplina.</p>
+
+            <br>
+
+        <h2> <span class="hash">##</span> Materias <span class="ColorPhrase">Semestre 2</span></h2>
+        <ul class="Un-OrderedList">
+            <li class="ColorPhrase">Diseño Web</li>
+            <li class="ColorPhrase">Metodología de la investigación</li>
+            <li class="ColorPhrase">Matematicas 2</li>
+            <li class="ColorPhrase">Programación 2</li>
+            <li class="ColorPhrase">Lecto-Escritura</li>
+            <li class="ColorPhrase">Proyecto De Vida</li>
+        </ul>
+
+        <h2> <span class="hash">#</span>Programación <span class="ColorPhrase">2</span></h2>
+        <div class="Signature">
+                <br>
+            <img src="/semana-1/practica/HEy.png" alt="Gato mirando" class="image signatureImage">
+                 <small id="smallAuthor"> Author: <span class="ColorPhrase">I dont know xd</span></small>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima fuga non ipsa, praesentium pariatur quasi? Libero minus ea corporis fuga laborum cupiditate. Repellendus quos ratione atque harum, error modi tempora consequatur in, esse distinctio placeat autem. Vel ex libero reiciendis ipsum fugiat, sunt alias, laborum qui assumenda beatae eveniet, maxime obcaecati. Explicabo, obcaecati hic excepturi sequi <strong class="importantTag">distinctio</strong> iusto nesciunt? Nobis dolorem sunt optio ipsum beatae aspernatur consequuntur accusantium explicabo, alias odit quaerat repellendus ullam. Unde fuga ab natus iste molestiae maiores, a qui possimus. Ab odit repellat eius molestiae quaerat autem corrupti, corporis voluptas consectetur commodi voluptate magni quis magnam.
+                    <br>
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima fuga non ipsa, praesentium pariatur quasi? Libero minus ea corporis fuga laborum cupiditate. Repellendus quos ratione atque harum, error modi tempora consequatur in, esse distinctio placeat autem. Vel ex libero reiciendis ipsum fugiat, sunt alias, laborum qui assumenda beatae eveniet, maxime obcaecati. Explicabo, obcaecati hic excepturi sequi <strong class="importantTag">distinctio</strong> iusto nesciunt? Nobis dolorem sunt optio ipsum beatae aspernatur consequuntur accusantium explicabo, alias odit quaerat repellendus ullam. Unde fuga ab natus iste molestiae maiores, a qui possimus. Ab odit repellat eius molestiae quaerat autem corrupti, corporis voluptas consectetur commodi voluptate magni quis magnam.
+                </p>
+                
+<pre>
+    <code>
+        local juan = 20
+        local Maria = 0
+        local Sebastian = 30
+        local Marcelo = 20
+                        
+        local finalResults = {
+            juan = juan,
+            Maria = Maria,
+            Sebastian = Sebastian,
+            Marcelo = Marcelo
+        }
+                        
+        local function giveApple(personWhosGiveTheApple, personToGiveTheApple, ApplesToGive, NameOfPersonWhosGive, NameOfPersonWhosReceive)
+            if finalResults[NameOfPersonWhosGive] >= ApplesToGive then
+                finalResults[NameOfPersonWhosGive] = finalResults[NameOfPersonWhosGive] - ApplesToGive
+                finalResults[NameOfPersonWhosReceive] = finalResults[NameOfPersonWhosReceive] + ApplesToGive
+            end
+        end
+                        
+        giveApple(juan, Maria, 5, "juan", "Maria")
+        giveApple(Sebastian, juan, 10, "Sebastian", "juan")
+        giveApple(juan, Marcelo, 15, "juan", "Marcelo")
+                        
+        for person, apples in pairs(finalResults) do
+            print(person, "tiene", apples, "manzanas")
+        end
+                        
+        </code>
+</pre>
+        </div>
+
+
+    </body>
+</html>

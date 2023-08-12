@@ -1,0 +1,70 @@
+:root {
+    --main-color: rgb(201, 31, 82);;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 900px;
+    padding: 50px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+h1 {
+    margin: 20px 0px 20px 0px;
+}
+
+h1 > span#name {
+    color: var(--main-color);
+}
+
+span.hash {
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+strong.importantTag {
+    color: var(--main-color);
+}
+
+span.ColorPhrase {
+    color: var(--main-color);
+}
+
+ul.Un-OrderedList {
+    margin: 30px 0px 30px 50px;
+    font-weight: 500;
+}
+
+.Signature {
+    display: grid;
+    place-content: center;
+}
+
+.image {
+    max-width: 700px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    filter: grayscale();
+    transition: 2s;
+}
+
+#smallAuthor {
+    border-left: 2px solid var(--main-color);
+    padding: 5px 10px 5px 10px;
+    margin: 10px 10px 20px 10px;
+}
+
+.image:hover {
+    filter: none;
+}
+
+pre {
+    background-color: rgb(236, 236, 236);
+    border-left: 2px solid var(--main-color);
+}
